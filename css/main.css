@@ -72,11 +72,12 @@ body {
     border-radius: 10px;
     position: relative;
 }
-.info p {
+.info h1 {
     color: var(--Grayish-Blue);
     font-size: 14px;
+    font-weight: normal;
 }
-.info p span {
+.info h1 span {
     color: var(--Pale-Blue);
 }
 .info .progress {
@@ -155,7 +156,7 @@ body {
         flex-basis: 100%;
         text-align: center;
     }
-    .main-container .info p {
+    .main-container .info h1 {
         font-size: 12px;
     }
     .main-container .info .toltip {
