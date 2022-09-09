@@ -39,7 +39,7 @@ body {
     border-radius: 10px;
     border-top-right-radius: 100px;
 }
-.logo > img {
+.logo > h1 img {
     margin-bottom: 25px;
 }
 .logo .icons {
@@ -71,12 +71,12 @@ body {
     border-radius: 10px;
     position: relative;
 }
-.info h1 {
+.info h2 {
     color: var(--Grayish-Blue);
     font-size: 14px;
     font-weight: normal;
 }
-.info h1 span {
+.info h2 span {
     color: var(--Pale-Blue);
 }
 .info .progress {
@@ -155,7 +155,7 @@ body {
         flex-basis: 100%;
         text-align: center;
     }
-    .main-container .info h1 {
+    .main-container .info h2 {
         font-size: 12px;
     }
     .main-container .info .toltip {
